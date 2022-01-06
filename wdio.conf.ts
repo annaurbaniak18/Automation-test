@@ -29,7 +29,9 @@ export const config: WebdriverIO.Config = {
 
 		lekcja3:['./src/spec/e2e/dropdown.ts'],
 
-		lekcja4:['./src/spec/e2e/window.ts']
+		lekcja4:['./src/spec/e2e/window.ts'],
+
+		lekcja5:['./src/spec/e2e/alerts.ts']
 	},
 	// Patterns to exclude.
 	exclude: [
@@ -211,7 +213,7 @@ export const config: WebdriverIO.Config = {
 	/**
 	 * Function to be executed before a test (in Mocha/Jasmine) starts.
 	 */
-	beforeTest: function (test, context) {
+	beforeTest: function (test,  context) {
 		browser.maximizeWindow();
 	},
 	/**

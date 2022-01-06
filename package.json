@@ -8,7 +8,8 @@
     "uruchom-lekcja1": " wdio wdio.conf.ts --suite lekcja1",
     "lekcja2-checkbox": "wdio wdio.conf.ts --suite lekcja2",
     "lekcja3-dropdown": "wdio wdio.conf.ts --suite lekcja3",
-    "lekcja4-window": "wdio wdio.conf.ts --suite lekcja4"
+    "lekcja4-window": "wdio wdio.conf.ts --suite lekcja4",
+    "lekcja5-alerts": "wdio wdio.conf.ts --suite lekcja5"
   },
   "author": "Anna Urbaniak",
   "license": "ISC",
