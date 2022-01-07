@@ -31,7 +31,11 @@ export const config: WebdriverIO.Config = {
 
 		lekcja4:['./src/spec/e2e/window.ts'],
 
-		lekcja5:['./src/spec/e2e/alerts.ts']
+		lekcja5:['./src/spec/e2e/alerts.ts'],
+
+		lekcja6:['./src/spec/e2e/fileUpload.ts'],
+
+		lekcja7:['./src/spec/e2e/moveto.ts']
 	},
 	// Patterns to exclude.
 	exclude: [
